@@ -3,13 +3,14 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
 }
 
 /* main */
 
 .container {
-	width: 1300px;
+	max-width: 1500px;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -17,39 +18,50 @@
 /* cards */
 
 .card {
-	width: 400px;
+	width: 450px;
 	height: 800px;
-	margin: 0 10px;
-	display: inline-block;
+	margin: auto;
+	margin-bottom: 20px;
 	background-color: #eee;
+	display: inline-block;
 	position: relative;
 }
 
+/* images */
+
 .image {
 	height: 700px;
-	background-color: blue;
-	margin-bottom: 5px;
+	margin-bottom: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.tag-container {
+.image.levis-relaxed-tee {
+	background-image: url(../img/1.webp);
+}
+
+/* tags */
+
+.label-container {
 	position: absolute;
 	top: 650px;
 	text-align: center;
 }
 
-.tag {
+.label {
 	padding: 3px;
 	color: white;
 	margin-right: 1px;
 	display: inline-block;
 }
 
-.tag.discount {
+.label.discount {
 	background-color: #eb0037;
-
+	
 }
 
-.tag.sustainability {
+.label.sustainability {
 	background-color: #00875a;
 }
 
@@ -61,6 +73,28 @@
 	font-size: 2rem;
 	background-color: white;
 	top: 20px;
-	left: 350px;
+	left: 400px;
 	line-height: 50px;
+}
+
+/* description */
+
+.description {
+	display: block;
+	text-align: left;
+	line-height: 2px;
+}
+
+.small-text {
+	font-size: 0.9rem;
+	font-weight: lighter;
+}
+
+.price {
+	color: red;
+	font-weight: normal;
+}
+
+.dress-name {
+	font-weight: normal;
 }
