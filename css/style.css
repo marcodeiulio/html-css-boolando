@@ -3,12 +3,13 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 /* main */
 
 .container {
-	width: 1000px;
+	width: 1300px;
 	margin: 30px auto;
 	text-align: center;
 }
@@ -16,8 +17,8 @@
 /* cards */
 
 .card {
-	width: 300px;
-	height: 600px;
+	width: 400px;
+	height: 800px;
 	margin: 0 10px;
 	display: inline-block;
 	background-color: #eee;
@@ -25,21 +26,41 @@
 }
 
 .image {
-	height: 500px;
+	height: 700px;
 	background-color: blue;
 	margin-bottom: 5px;
 }
 
-.tag {
+.tag-container {
 	position: absolute;
+	top: 650px;
+	text-align: center;
+}
+
+.tag {
 	padding: 3px;
 	color: white;
+	margin-right: 1px;
+	display: inline-block;
 }
 
 .tag.discount {
 	background-color: #eb0037;
+
 }
 
 .tag.sustainability {
 	background-color: #00875a;
+}
+
+.favorite {
+	position: absolute;
+	display: block;
+	height: 50px;
+	width: 50px;
+	font-size: 2rem;
+	background-color: white;
+	top: 20px;
+	left: 350px;
+	line-height: 50px;
 }
