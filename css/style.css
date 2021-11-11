@@ -1,0 +1,45 @@
+/* general */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* main */
+
+.container {
+	width: 1000px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+/* cards */
+
+.card {
+	width: 300px;
+	height: 600px;
+	margin: 0 10px;
+	display: inline-block;
+	background-color: #eee;
+	position: relative;
+}
+
+.image {
+	height: 500px;
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+.tag {
+	position: absolute;
+	padding: 3px;
+	color: white;
+}
+
+.tag.discount {
+	background-color: #eb0037;
+}
+
+.tag.sustainability {
+	background-color: #00875a;
+}
