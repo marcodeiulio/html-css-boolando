@@ -46,7 +46,45 @@
 	background-image: url(../img/1b.webp);
 }
 
+.image.guess-roses-tee {
+	background-image: url(../img/2.webp);
+}
 
+.image.guess-roses-tee:hover {
+	background-image: url(../img/2b.webp);
+}
+
+.image.czm-colori-pastello {
+	background-image: url(../img/3.webp);
+}
+
+.image.czm-colori-pastello:hover {
+	background-image: url(../img/3b.webp);
+}
+
+.image.levis-tee {
+	background-image: url(../img/4.webp);
+}
+
+.image.levis-tee:hover {
+	background-image: url(../img/4b.webp);
+}
+
+.image.maya-stripe-bodice {
+	background-image: url(../img/5.webp);
+}
+
+.image.maya-stripe-bodice:hover {
+	background-image: url(../img/5b.webp);
+}
+
+.image.esprit-maglione-black {
+	background-image: url(../img/6.webp);
+}
+
+.image.esprit-maglione-black:hover {
+	background-image: url(../img/6b.webp);
+}
 
 /* labels */
 
@@ -101,13 +139,16 @@
 	font-weight: lighter;
 }
 
-.price {
-	color: red;
-	font-weight: normal;
+.brand {
+	text-transform: capitalize;
 }
 
 .dress-name {
 	font-weight: normal;
+	text-transform: uppercase;
 }
 
-/* hover properties */
+.price {
+	color: red;
+	font-weight: normal;
+}
