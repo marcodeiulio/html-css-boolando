@@ -25,6 +25,7 @@
 	background-color: #eee;
 	display: inline-block;
 	position: relative;
+	cursor: pointer;
 }
 
 /* images */
@@ -41,7 +42,13 @@
 	background-image: url(../img/1.webp);
 }
 
-/* tags */
+.image.levis-relaxed-tee:hover {
+	background-image: url(../img/1b.webp);
+}
+
+
+
+/* labels */
 
 .label-container {
 	position: absolute;
@@ -72,9 +79,13 @@
 	width: 50px;
 	font-size: 2rem;
 	background-color: white;
-	top: 20px;
+	top: 15px;
 	left: 400px;
 	line-height: 50px;
+}
+
+.favorite:hover {
+	color: red;
 }
 
 /* description */
@@ -98,3 +109,5 @@
 .dress-name {
 	font-weight: normal;
 }
+
+/* hover properties */
