@@ -20,9 +20,8 @@
 .card {
 	width: 450px;
 	height: 800px;
-	margin: auto;
+	margin: auto 10px;
 	margin-bottom: 20px;
-	background-color: #eee;
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
