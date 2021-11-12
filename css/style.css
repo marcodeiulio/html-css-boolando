@@ -36,7 +36,7 @@ header {
 /* main */
 
 .container {
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 140px auto;
 	text-align: center;
 }
@@ -44,8 +44,8 @@ header {
 /* cards */
 
 .card {
-	width: 450px;
-	height: 800px;
+	width: 370px;
+	height: 650px;
 	margin: auto 10px;
 	margin-bottom: 20px;
 	display: inline-block;
@@ -56,7 +56,7 @@ header {
 /* images */
 
 .image {
-	height: 700px;
+	height: 550px;
 	margin-bottom: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -115,7 +115,7 @@ header {
 
 .label-container {
 	position: absolute;
-	top: 650px;
+	top: 500px;
 	text-align: center;
 }
 
@@ -143,12 +143,16 @@ header {
 	font-size: 2rem;
 	background-color: white;
 	top: 15px;
-	left: 400px;
+	left: 320px;
 	line-height: 50px;
 }
 
 .favorite:hover {
 	color: red;
+}
+
+.favorite::after {
+	content: "\2665";
 }
 
 /* description */
