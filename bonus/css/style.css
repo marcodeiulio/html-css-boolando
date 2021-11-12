@@ -118,6 +118,10 @@ header {
 	line-height: 50px;
 }
 
+.favorite::after {
+	content: "\2665";
+}
+
 .favorite:hover {
 	color: red;
 }
